@@ -1,0 +1,3 @@
+--Listar o nome dos empregados que estão alocados em projetos (OBS: resolver com IN,
+--EXISTS e JOIN)select e.nom_empregado	from empregado e	where e.num_matricula IN (select num_matricula FROM alocacao)	ORDER BY e.nom_empregado select distinct e.nom_empregado	from empregado e	inner join alocacao a	ON e.num_matricula = a.num_matricula--Listar o nome dos departamentos que controlam projetos (OBS: resolver com IN, EXISTS e
+--JOIN)select d.nom_depto	from departamento d	where d.cod_depto IN (select cod_depto FROM projeto)		select distinct d.nom_depto	from departamento d	inner join projeto p	ON d.cod_depto = p.cod_depto
