@@ -1,0 +1,41 @@
+	#include <stdio.h>
+	#include <string.h>
+	
+	
+	int main( ) 
+	
+	{
+		
+	 char nome [20];
+	 char endereco [40];
+	 char telefone [9],
+	 char idade [2];
+	 
+	 
+	prinf("\nInsira o nome: ");
+	fflush(stdin); 
+	gets (nome);
+	 
+	 
+	prinf("\nInsira o endereco: ");
+	fflush(stdin);
+	gets (endereco);
+	 
+	prinf("\nInsira o telefone: ");
+	fflush(stdin);
+	gets (telefone);
+	
+	prinf("\nInsira a idade");
+	fflush(stdin); 
+	gets (idade);
+	 
+	printf("\n Nome : %s", nome);
+	printf("\n Endereco : %s", endereco);
+	printf("\n Telefone: %s", telefone);
+	printf("\n Idade : %s", idade);
+	
+	return(0);
+	}
+	
+	
+

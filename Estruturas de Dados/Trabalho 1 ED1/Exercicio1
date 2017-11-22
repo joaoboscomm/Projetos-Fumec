@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <string.h>
+
+
+int main( ) 
+
+{
+	
+	char string[80];
+	int numeros = 0;
+	int minuscula = 0;
+	int tamanho = 0;
+	int contador = 0;
+	
+	
+	printf("Insira uma String:");
+	fflush(stdin);
+	gets(string);
+	tamanho= strlen(string);
+	
+	for (contador; contador<tamanho; contador++){
+		
+		if(string[contador]>= 97 &&  string[contador]<= 122){
+			
+			minuscula = minuscula + 1; //ou minuscula++;
+		}
+		
+		else if (string[contador]>= 48 && string[contador]<= 57){
+			
+			numeros = numeros + 1; //ou numeros++;
+		}
+		
+				
+	}
+	
+	
+	printf ("\n Quantidade de caracteres da String: %d", tamanho );
+	printf ("\n Quantidade de numeros da String: %d", numeros);
+	printf ("\n Quantidade de letras minusculos da String: %d", minuscula);
+	
+	return 0;
+}
