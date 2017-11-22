@@ -1,0 +1,12 @@
+﻿  Origem.cpp
+c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdlib.h(51): error C2381: 'exit': redefinição; '__declspec(noreturn)' ou '[[noreturn]]' difere
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\gl\glut.h(146): note: consulte a declaração de 'exit'
+u:\computacao grafica\projeto4\projeto1\projeto1\origem.cpp(53): error C2084: função 'void DesenhaQuadro(void)' já possui um corpo
+  u:\computacao grafica\projeto4\projeto1\projeto1\origem.cpp(4): note: consulte a definição anterior de 'DesenhaQuadro'
+u:\computacao grafica\projeto4\projeto1\projeto1\origem.cpp(59): error C2601: 'Desenha': definições de função local são inválidas
+  u:\computacao grafica\projeto4\projeto1\projeto1\origem.cpp(53): note: esta linha contém um '{' que ainda não foi correspondido
+u:\computacao grafica\projeto4\projeto1\projeto1\origem.cpp(66): error C2601: 'Anima': definições de função local são inválidas
+  u:\computacao grafica\projeto4\projeto1\projeto1\origem.cpp(53): note: esta linha contém um '{' que ainda não foi correspondido
+u:\computacao grafica\projeto4\projeto1\projeto1\origem.cpp(79): error C2601: 'main': definições de função local são inválidas
+  u:\computacao grafica\projeto4\projeto1\projeto1\origem.cpp(53): note: esta linha contém um '{' que ainda não foi correspondido
+u:\computacao grafica\projeto4\projeto1\projeto1\origem.cpp(53): fatal error C1075: o chave '{' à esquerda não tinha correspondência no final do arquivo

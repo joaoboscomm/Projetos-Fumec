@@ -1,0 +1,12 @@
+gluOrtho2D(x+ , x- , y+ , y-) - x e y max do universo
+
+glViewport(x,  y, width, height) - ponto de origem da imagem na janela
+
+
+
+
+
+
+
+
+
