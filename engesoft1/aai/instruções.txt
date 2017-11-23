@@ -1,0 +1,7 @@
+Atividade Autoinstrucional
+
+Ler dois artigos sobre "global software engineering" e correlacioná-los em um resumo de, no mínimo, 500 palavras. 
+
+1. Procurar pela palavra-chave "global software engineering" na dblp http://dblp.org/
+
+2. Identificar o DOI do artigo e buscá-lo no sci-hub http://sci-hub.cc/

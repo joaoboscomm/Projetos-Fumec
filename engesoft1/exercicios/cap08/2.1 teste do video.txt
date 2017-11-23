@@ -1,0 +1,8 @@
+﻿1. Copiar o FirefoxPortable da pasta H:\fernando.parreiras@fumec.br\engesoft1\FirefoxPortable para a pasta c:\temp
+
+2. NÃO ATUALIZAR
+
+3. Abrir o Selenium
+
+4. Executar o roteiro de teste seguido no video em https://www.youtube.com/watch?v=CQJDnNSte3k
+

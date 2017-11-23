@@ -1,0 +1,25 @@
+1. Escolher um software semelhante ao seu projeto de laboratório
+
+2. Em pares ou trios, realizar anotações sobre cada um dos tipos de missão a seguir (FCC CUTS VIDS):
+
+2.1 Tour de Recurso: passe pela aplicação e familiarize-se com todos os controles e recursos que você encontra.
+
+2.2 Tour de complexidade: encontre as cinco coisas mais complexas sobre a aplicação.
+
+2.3 Reivindicações: Encontre todas as informações do produto que lhe dizem o que o produto faz.
+
+2.4 Tour de configuração: tente encontrar todas as formas de alterar as configurações no produto de forma que o aplicativo contenha essas configurações.
+
+2.5 Tour de usuário: Imagine cinco usuários para o produto e as informações que eles desejariam do produto ou os principais recursos que lhes interessariam.
+
+2.6 Tour de Testabilidade: Encontre todos os recursos que você pode usar como recursos de testabilidade e / ou identifique as ferramentas que você tem disponíveis para ajudar nos testes.
+
+2.7 Tour de cenário: imagine cinco cenários realistas sobre como os usuários identificados no Tour de  do usuário usariam este produto.
+
+2.8 Tour de variabilidade: Procure por coisas que você pode mudar no aplicativo - e então você tenta alterá-las.
+
+2.9 Tour de interoperabilidade: Com o que esse aplicativo interage?
+
+2.10 Tour de dados: identifique os principais elementos de dados da aplicação.
+
+2.11 Tour de estrutura: encontre tudo o que puder sobre o que compreende o produto físico (código, interfaces, hardware, arquivos, etc ...).

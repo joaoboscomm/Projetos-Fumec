@@ -1,0 +1,5 @@
+1. Copiar o FirefoxPortable da pasta H:\fernando.parreiras@fumec.br\engesoft1\FirefoxPortable para a pasta c:\temp
+2. NÃO ATUALIZAR
+3. Abrir o Selenium
+4. Executar o roteiro de teste em https://www.dropbox.com/sh/hqkr66u4u9bu0jt/AAAMTHKgYNYIr3fO5f5Y_f0oa/exercicios/cap08?dl=0 utilzando o site 
+5. Usar o site: https://www.triangle-calculator.com/?what=sss&a=4&b=4&c=4&submit=Solve

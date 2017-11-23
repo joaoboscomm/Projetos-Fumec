@@ -1,0 +1,49 @@
+1 – Introdução .
+1.1 Desenvolvimento profissional de software  
+1.2 Ética na engenharia de software. 
+1.3 Estudos de caso 
+Capítulo 2 – Processos de software  
+2.1 Modelos de processo de software 
+2.2 Atividades do processo . 
+2.3 Lidando com mudanças. 
+2.4 Rational Unified Process (RUP). 
+Capítulo 3 – Desenvolvimento ágil de software  
+3.1 Métodos ágeis. 
+3.2 Desenvolvimento ágil e dirigido a planos. 
+3.3 Extreme Programming. 
+3.4 Gerenciamento ágil de projetos  
+3.5 Escalamento de métodos ágeis. 
+Capítulo 4 – Engenharia de requisitos 
+4.1 Requisitos funcionais e não funcionais 
+4.2 O documento de requisitos de software . 
+4.3 Especificação de requisitos . 
+4.4 Processos de engenharia de requisitos. 
+4.5 Elicitação e análise de requisitos 
+4.6 Validação de requisitos  
+4.7 Gerenciamento de requisitos  
+Capítulo 5 – Modelagem de sistemas. 
+5.1 Modelos de contexto 
+5.2 Modelos de interação. 
+5.3 Modelos estruturais . 
+5.4 Modelos comportamentais  
+5.5 Engenharia dirigida a modelos. 
+Capítulo 6 – Projeto de arquitetura . 
+6.1 Decisões de projeto de arquitetura  
+6.2 Visões de arquitetura 
+6.3 Padrões de arquitetura 
+6.4 Arquiteturas de aplicações. 
+Capítulo 7 – Projeto e implementação . 
+7.1 Projeto orientado a objetos com UML 
+7.2 Padrões de projeto  
+7.3 Questões de implementação . 
+7.4 Desenvolvimento open source . 
+Capítulo 8 – Testes de software . 
+8.1 Testes de desenvolvimento . 
+8.2 Desenvolvimento dirigido a testes 
+8.3 Testes de release  
+8.4 Testes de usuário  
+Capítulo 9 – Evolução de software . 
+9.1 Processos de evolução 
+9.2 Dinâmica da evolução de programas . 
+9.3 Manutenção de software 
+9.4 Gerenciamento de sistemas legados. 

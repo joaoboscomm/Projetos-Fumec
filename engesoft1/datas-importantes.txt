@@ -1,0 +1,7 @@
+Vr Data  Descrição
+10 31/10 Entregas sobre ágil e listas de exercícios
+10 14/11 AAI
+10 ??/?? RSC
+35 05/12 Prova Final
+35 12/12 Prova Especial
+

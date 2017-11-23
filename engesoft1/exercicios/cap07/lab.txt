@@ -1,0 +1,1 @@
+1.	Transformar as histórias do usuário em pelos 5 cartões CRC

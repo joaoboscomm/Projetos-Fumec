@@ -1,0 +1,18 @@
+﻿# Exercício em grupo avaliativo
+
+## Data de Entrega
+Entrega 31/10
+
+## Instruções para Entrega
+Um pacote (zip) contendo todos os itens abaixo, juntamente com a identificação de todos os elementos do grupo.
+
+A entrega é feita no sinef por um elemento do grupo.
+
+## Itens a serem entregues
+id 	Descrição			Página do Livro	Livro
+1 	Doc. Especificação Requisitos de Software.docx
+2	Agile Charter		244	PMI-ACP Exam Prep
+3	Personas			134	PMI-ACP Exam Prep
+4	Wireframes			133	PMI-ACP Exam Prep
+5 	User Stori Backlog	136	PMI-ACP Exam Prep
+6 	Arquitetura 4+1 UML	38 POSA for Dummies

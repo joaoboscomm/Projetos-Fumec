@@ -1,0 +1,604 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script src="http://ppg.fumec.br/sigc/wp-content/uploads/2015/10/data2.js"></script>
+<link rel="stylesheet" href="http://ppg.fumec.br/sigc/wp-content/uploads/2015/10/data2.css" type="text/css">
+<style type="text/css">
+	ul { 
+		list-style-type: none; 
+		line-height:150%
+	}
+
+	ol { 
+		line-height:150%
+	}
+	
+	table {
+		border-collapse:collapse;
+	}
+	
+	#cabecalho {
+		border: 0px solid black;
+		text-align:left;
+		width:100%;
+	}
+	
+	th, td {
+		border: 1px solid black;
+		text-align:center;
+		padding:1px;
+	}
+
+	div
+	{
+		text-align:justify;
+		text-justify:inter-word;
+	}
+
+	p {
+		line-height:150%
+	}
+	
+	img {
+	    height: auto;
+	    max-width: 100%;
+	}
+
+	div.cabecalho {
+
+	margin: 20px;
+    padding: 3px 10px 10px;
+    
+	}	
+	
+</style>
+</head>
+<body>
+<h2></h2>
+<div class="cabecalho">
+<ul>
+<li>Universidade FUMEC / Faculdade de Ci&ecirc;ncias Empresariais</li>
+</ul>
+<ul>
+<li>Bacharelado em Ci&ecirc;ncia da Computa&ccedil;&atilde;o</li>
+</ul>
+<ul>
+<li>Disciplina de
+Engenharia de Software
+/ Turma
+12-7DA / 12-7NA
+</li>
+</ul>
+<ul>
+<li>Professor Dr. Fernando Silva Parreiras</li>
+</ul>
+<ul>
+<li>Exercicios de Revisao (
+2017-02/cap06
+)</li>
+</ul>
+</div>
+<div style="width=100%">
+<div class="questao" id="q1">
+<p class="enunciado">1. 
+          Considere as fun&ccedil;&otilde;es:
+I. Sele&ccedil;&atilde;o do comportamento do modelo.
+II. Encapsulamento dos objetos de conte&uacute;do.
+III. Requisi&ccedil;&atilde;o das atualiza&ccedil;&otilde;es do modelo.
+Na arquitetura Model-View-Control - MVC, essas fun&ccedil;&otilde;es correspondem, respectivamente, a</p>
+<ul class="opcoes">
+<li correta="nao">a) Model, View e Control.</li>
+<li correta="nao">b) Control, View e Model.</li>
+<li correta="nao">c) View, Model e Control.</li>
+<li correta="sim">d) Control, Model e View.</li>
+<li correta="nao">e) View, Control e Model.</li>
+</ul>
+<div class="coment1"> 
+				COMENT&Aacute;RIOS: Parab&eacute;ns! Voc&ecirc; acertou a quest&atilde;o.<br>
+<br>
+<p>
+         
+            
+               
+                  
+                     
+                  
+               
+               
+          
+            
+            
+               
+            
+            Comentado porMarilia Nevesh&aacute; mais de 2 anos.
+                  
+                     Segundo o Pressman, p&aacute;g.443, temos a seguinte divis&atilde;o das fun&ccedil;&otilde;es para cada camada:
+                        Controlador - gera requisi&ccedil;&otilde;es do usu&aacute;rio; seleciona comportamento do modelo(I); seleciona resposta de vis&atilde;oModelo&nbsp; - encapsula funcionalidade; encapsula objetos de conte&uacute;do(II); incorpora todos os estados da aplica&ccedil;&atilde;oVis&atilde;o - prepara dados do modelo; requer atualiza&ccedil;&otilde;es do modelo(III); apresenta vis&atilde;o seecionada pelo controlador
+                        Portanto, a alternativa que apresenta a correspond&ecirc;ncia correta &eacute; a letra d.
+                        
+                     
+                  
+                  
+                  
+                  
+                  
+            
+                     
+                     &Uacute;til (18)
+                  
+                  
+            
+                     Este coment&aacute;rio &eacute; ofensivo ou inapropriado? Denuncie aqui.
+                     
+                     
+                  
+                  
+                  
+               
+               
+               
+            
+            
+         
+      <br>
+<br>
+</p>
+<p>
+         
+            
+               
+                  
+                     
+                  
+               
+               
+          
+            
+            
+               
+            
+            Comentado porRafaela Lopesh&aacute; mais de 3 anos.
+                  
+                     
+                     O modelo (model) &eacute; usado para definir e gerenciar o dom&iacute;nio da informa&ccedil;&atilde;o e notificar observadores sobre mudan&ccedil;as nos dados. Ele &eacute; uma representa&ccedil;&atilde;o detalhada da informa&ccedil;&atilde;o que a aplica&ccedil;&atilde;o opera. A l&oacute;gica de neg&oacute;cio adiciona valor sem&acirc;ntico aos dados, e quando h&aacute; mudan&ccedil;a de estado o modelo notifica seus observadores. Por exemplo,aluno,professoreturmafazem parte do dom&iacute;nio de um sistema acad&ecirc;mico. Opera&ccedil;&otilde;es como calcular a m&eacute;dia final do aluno ou o &iacute;ndice de faltas da turma fazem parte da l&oacute;gica de dom&iacute;nio. A forma como o dado &eacute; armazenado ou acessado n&atilde;o &eacute; de interesse do MVC, assume-se que &eacute; de responsabilidade do modelo.
+                     A vis&atilde;o (view) apresenta o modelo num formato adequado ao utilizador, na sa&iacute;da de dados, e diferentes vis&otilde;es podem existir para um mesmo modelo, para diferentes prop&oacute;sitos.
+                     O controlador (controller) recebe a entrada de dados e inicia a resposta ao utilizador ao invocar objetos do modelo, e por fim uma vis&atilde;o baseada na entrada. Ele tamb&eacute;m &eacute; respons&aacute;vel pela valida&ccedil;&atilde;o e flitragem da entrada de dados.
+                     Um caso pr&aacute;tico &eacute; umaaplica&ccedil;&atilde;o webem que a vis&atilde;o &eacute; um documento HTML (ou derivado) gerado pela aplica&ccedil;&atilde;o. O controlador recebe uma entradaGETouPOSTap&oacute;s um est&iacute;mulo do utilizador e decide como process&aacute;-la, invocando objetos do dom&iacute;nio para tratar a l&oacute;gica de neg&oacute;cio, e por fim invocando uma vis&atilde;o para apresentar a sa&iacute;da.
+                        Fonte:http://pt.wikipedia.org/wiki/MVC
+                     
+                  
+                  
+                  
+                  
+                  
+            
+                     
+                     &Uacute;til (0)
+                  
+                  
+            
+                     Este coment&aacute;rio &eacute; ofensivo ou inapropriado? Denuncie aqui.
+                     
+                     
+                  
+                  
+                  
+               
+               
+               
+            
+            
+         
+      <br>
+<br>
+</p>
+</div>
+</div>
+<div class="questao" id="q2">
+<p class="enunciado">2. 
+          O diagrama mostrado na figura acima corresponde a uma arquitetura cliente-servidor</p>
+<img src="https://qcon-assets-production.s3.amazonaws.com/https://s3.amazonaws.com/qcon-assets-production/images/provas/396/Imagem 053.jpg"><br>
+<ul class="opcoes">
+<li correta="nao">a) do tipo fat client, em que mais processamento &eacute; delegado ao cliente e o processamento de aplica&ccedil;&otilde;es &eacute; executado localmente.</li>
+<li correta="nao">b) do tipo thin client, em que existe um servidor e o cliente tem uma interface gr&aacute;fica implemetada para interagir com esse servidor.</li>
+<li correta="nao">c) de duas camadas, que tem como desvantagem uma elevada carga de processamento no servidor e na rede.</li>
+<li correta="sim">d) do tipo three tier,que permite melhor desempenho que um modelo thin cliente &eacute; mais f&aacute;cil de gerenciar que um modelo fat client.</li>
+</ul>
+<div class="coment2"> 
+				COMENT&Aacute;RIOS: Parab&eacute;ns! Voc&ecirc; acertou a quest&atilde;o.<br>
+<br>
+<p>
+         
+            
+               
+                  
+                     
+                  
+               
+               
+          
+                  
+                     
+                  
+               
+            
+            
+               
+            
+            Comentado porVictor Assish&aacute; mais de 2 anos.
+                  
+                     93
+                        Segundo Ian Sommerville, 8&ordf;ed, p 273:
+                        
+                        In a three-tier client-server, the presentation, the application processing and the data management are logically separate processes that execute on different processors.
+                        
+                        93,93/93
+                  
+                  
+                  
+                  
+                  
+            
+                     
+                     &Uacute;til (10)
+                  
+                  
+            
+                     Este coment&aacute;rio &eacute; ofensivo ou inapropriado? Denuncie aqui.
+                     
+                     
+                  
+                  
+                  
+               
+               
+               
+            
+            
+         
+      <br>
+<br>
+</p>
+</div>
+</div>
+<div class="questao" id="q3">
+<p class="enunciado">3. 
+          Assinale a op&ccedil;&atilde;o correta, acerca da tecnologia cliente- servidor.</p>
+<ul class="opcoes">
+<li correta="nao">a) Em uma arquitetura do tipo two-tier, as aplica&ccedil;&otilde;es s&atilde;o normalmente divididas em duas camadas de servi&ccedil;os: de usu&aacute;rio; e de neg&oacute;cio.</li>
+<li correta="nao">b) A l&oacute;gica da aplica&ccedil;&atilde;o pode residir na interface do usu&aacute;rio ou no servidor produzindo dois modelos, entre eles, o FatClient, em que a interface do usu&aacute;rio e os dados est&atilde;o no cliente e a l&oacute;gica do neg&oacute;cio est&aacute; no servidor.</li>
+<li correta="sim">c) No modelo ThinClient, a interface do usu&aacute;rio e a l&oacute;gica do neg&oacute;cio residem no cliente e a l&oacute;gica do banco de dados reside no servidor.</li>
+<li correta="nao">d) No ambiente Windows, as camadas do modelo three-tiers&atilde;o conhecidas como user services, business services e data services.</li>
+<li correta="nao">e) Na arquitetura de tr&ecirc;s camadas, os dados recebem uma camada separada que pode ser gerenciada por um middlewarecomo o IIS ( Internet information server).</li>
+</ul>
+<div class="coment3"> 
+				COMENT&Aacute;RIOS: Parab&eacute;ns! Voc&ecirc; acertou a quest&atilde;o.<br>
+<br>
+<p>
+         
+            
+               
+                  
+                     
+                  
+               
+               
+          
+                  
+                     
+                  
+               
+            
+            
+               
+            
+            Comentado porKauan Mocelinh&aacute; 5 meses.
+                  
+                     Com certeza o gabarito est&aacute; errado. Ser&aacute; que n&atilde;o foi alterado pela Banca?
+                  
+                  
+                  
+                  
+                  
+            
+                     
+                     &Uacute;til (1)
+                  
+                  
+            
+                     Este coment&aacute;rio &eacute; ofensivo ou inapropriado? Denuncie aqui.
+                     
+                     
+                  
+                  
+                  
+               
+               
+               
+            
+            
+         
+      <br>
+<br>
+</p>
+<p>
+         
+            
+               
+                  
+                     
+                  
+               
+               
+          
+            
+            
+               
+            
+            Comentado porHebeh&aacute; aproximadamente 1 ano.
+                  
+                     Com base nos meus conhecimentos, no modelo Thin Client as regras de neg&oacute;cio residem no servidor e n&atilde;o no cliente.Com esta informa&ccedil;&atilde;o a letra "C" tamb&eacute;m estaria incorreta.
+                  
+                  
+                  
+                  
+                  
+            
+                     
+                     &Uacute;til (0)
+                  
+                  
+            
+                     Este coment&aacute;rio &eacute; ofensivo ou inapropriado? Denuncie aqui.
+                     
+                     
+                  
+                  
+                  
+               
+               
+               
+            
+            
+         
+      <br>
+<br>
+</p>
+<p>
+         
+            
+               
+                  
+                     
+                  
+               
+               
+          
+            
+            
+               
+            
+            Comentado poracdcjuniorh&aacute; mais de 2 anos.
+                  
+                     O gabarito &eacute; D, n&atilde;o tenham d&uacute;vida disso.
+                  
+                  
+                  
+                  
+                  
+            
+                     
+                     &Uacute;til (0)
+                  
+                  
+            
+                     Este coment&aacute;rio &eacute; ofensivo ou inapropriado? Denuncie aqui.
+                     
+                     
+                  
+                  
+                  
+               
+               
+               
+            
+            
+         
+      <br>
+<br>
+</p>
+<p>
+         
+            
+               
+                  
+                     
+                  
+               
+               
+          
+                  
+                     
+                  
+               
+            
+            
+               
+            
+            Comentado porVictor Assish&aacute; mais de 2 anos.
+                  
+                     93
+                        Segundo Ian Sommerville, 8&ordf;ed, p 271:
+                        
+                        Thin-Client:
+                        All of the application processing and data management is carried out on the server. The client is simply responsible for running the presentation software;
+                        
+                        Fat-Client:
+                        The server is only responsible for data management. The software on the client implements the application logic and the interactions with the system user.
+                        Esse gabarito n&atilde;o foi alterado?
+                        93,93/93
+                  
+                  
+                  
+                  
+                  
+            
+                     
+                     &Uacute;til (14)
+                  
+                  
+            
+                     Este coment&aacute;rio &eacute; ofensivo ou inapropriado? Denuncie aqui.
+                     
+                     
+                  
+                  
+                  
+               
+               
+               
+            
+            
+         
+      <br>
+<br>
+</p>
+<p>
+         
+            
+               
+                  
+                     
+                  
+               
+               
+          
+                  
+                     
+                  
+               
+            
+            
+               
+            
+            Comentado porkdsh&aacute; mais de 2 anos.
+                  
+                     Embora o gabarito conste como letra C, pelo web site abaixo, o correto no meu entendimento, seria letra D - extra&iacute;do da MSDN.
+                        
+                        In a multitier architecture, a system is implemented in the following tiers:
+                     
+                     
+                        
+                           
+                              User Services Tier.This is a set of thin clients that focuses on managing the application user interface. The user services tier calls the next tier to perform the business functions needed to support user requests.
+                        
+                        
+                           
+                              Business Services Tier.A set of COM+ components that encapsulates the business logic of the organization. The business services tier uses the next tier for any permanent data storage that has to be performed.
+                        
+                        
+                           
+                              Data Services Tier
+                              .A set of components, such as SQL Server databases, that can store data in a permanent medium. This is also referred to as persisting the data.
+                        
+                     http://msdn.microsoft.com/en-us/library/ms187075%28v=sql.90%29.aspx
+                  
+                  
+                  
+                  
+            
+                     
+                     &Uacute;til (0)
+                  
+                  
+            
+                     Este coment&aacute;rio &eacute; ofensivo ou inapropriado? Denuncie aqui.
+                     
+                     
+                  
+                  
+                  
+               
+               
+               
+            
+            
+         
+      <br>
+<br>
+</p>
+<p>
+         
+            
+               User Services Tier.This is a set of thin clients that focuses on managing the application user interface. The user services tier calls the next tier to perform the business functions needed to support user requests.
+         
+      <br>
+<br>
+</p>
+<p>
+         
+            
+               Business Services Tier.A set of COM+ components that encapsulates the business logic of the organization. The business services tier uses the next tier for any permanent data storage that has to be performed.
+         
+      <br>
+<br>
+</p>
+<p>
+         
+            
+               Data Services Tier
+               .A set of components, such as SQL Server databases, that can store data in a permanent medium. This is also referred to as persisting the data.
+         
+      <br>
+<br>
+</p>
+<p>
+         
+            
+               
+                  
+                     
+                  
+               
+               
+          
+            
+            
+               
+            
+            Comentado porMauricioh&aacute; mais de 2 anos.
+                  
+                     wikipedia:
+                        Umthin client("cliente magro") &eacute; um computador cliente em umaredede modelo cliente-servidor de duas camadas o qual tem poucos ou nenhum aplicativo instalados, de modo que depende primariamente de um servidor central para o processamento de atividades.
+                        n&atilde;o entendi o gabarito.
+                  
+                  
+                  
+                  
+                  
+            
+                     
+                     &Uacute;til (1)
+                  
+                  
+            
+                     Este coment&aacute;rio &eacute; ofensivo ou inapropriado? Denuncie aqui.
+                     
+                     
+                  
+                  
+                  
+               
+               
+               
+            
+            
+         
+      <br>
+<br>
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Para o Sistema escolhido para o trabalho em grupo, utilizar a ferramenta DIA UML e criar 5 Diagramas UML refletindo a arquitetura da aplicação. Vide exemplos na pag 38 do livro POSA for Dummies:
+1.	Diagrama de Caso de Uso (utilizar do documento de requisitos)
+2.	Diagrama de Classe
+3.	Diagrama de Sequencia
+4.	Diagrama de Pacotes
+5.	Diagrama de Implementação
